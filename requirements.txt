@@ -1,0 +1,8 @@
+
+pandas
+numpy
+sqlalchemy
+psycopg[binary]
+jupyter
+ipykernel
+pytest

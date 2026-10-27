@@ -1,0 +1,26 @@
+
+# Python virtual environment
+.venv/
+
+# Python temporary files
+
+# Python temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+
+# macOS files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Raw datasets
+data : bpi2019/
+data : olist/
+
+# Local logs
+*.log

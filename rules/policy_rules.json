@@ -1,0 +1,9 @@
+{
+  "schema_version": "0.1",
+  "disclaimer": "Illustrative portfolio rules only; not approved policies of Olist or BPI contributors.",
+  "rules": [
+    {"id": "OL-DEL-001", "domain": "olist", "policy_version": "0.1", "approval_status": "simulated", "effective_from": "2026-01-01", "effective_to": null, "metric": "on_time_delivery_percent", "operator": ">=", "target": 97.0, "unit": "percent", "scope": "delivered_orders_with_actual_and_estimated_dates", "min_sample": 1},
+    {"id": "OL-SHP-001", "domain": "olist", "policy_version": "0.1", "approval_status": "simulated", "effective_from": "2026-01-01", "effective_to": null, "metric": "on_time_seller_order_handoff_percent", "operator": ">=", "target": 95.0, "unit": "percent", "scope": "eligible_distinct_seller_order_pairs", "min_sample": 1},
+    {"id": "BP-GR-001", "domain": "bpi", "policy_version": "0.1", "approval_status": "simulated", "effective_from": "2026-01-01", "effective_to": null, "metric": "po_to_first_gr_calendar_days", "operator": "<=", "target": 12.0, "unit": "calendar_days", "scope": "STD_MATERIAL", "required_fields": ["category", "po_created_at", "first_gr_at"]}
+  ]
+}
